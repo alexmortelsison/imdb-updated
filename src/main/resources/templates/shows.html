@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Workbook</title>
+</head>
+<body>
+  <h2>IMDB: Top 5 Episodes</h2>
+  <table width="100%", border="solid">
+    <tr th:object="${first}">
+      <td th:text="*{title}"></td>
+      <td th:text="*{episode}"></td>
+      <td th:text="*{rating}"></td>
+    </tr>
+    <tr th:object="${second}">
+      <td th:text="*{title}"></td>
+      <td th:text="*{episode}"></td>
+      <td th:text="*{rating}"></td>
+    </tr>
+    <tr th:object="${third}">
+      <td th:text="*{title}"></td>
+      <td th:text="*{episode}"></td>
+      <td th:text="*{rating}"></td>
+    </tr>
+    <tr th:object="${fourth}">
+      <td th:text="*{title}"></td>
+      <td th:text="*{episode}"></td>
+      <td th:text="*{rating}"></td>
+    </tr>
+    <tr th:object="${fifth}">
+      <td th:text="*{title}"></td>
+      <td th:text="*{episode}"></td>
+      <td th:text="*{rating}"></td>
+    </tr>
+  </table>
+</body>
+</html>
